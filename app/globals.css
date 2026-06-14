@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #F5F0E8;
+  --burgundy: #6B2737;
+  --gold: #D4A574;
+  --charcoal: #2B2B2B;
+  --font-inter: 'Inter', sans-serif;
+  --font-cormorant: 'Cormorant Garamond', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--charcoal);
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-cormorant);
+}
